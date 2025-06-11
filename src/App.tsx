@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter , Route, Routes } from 'react-router-dom'
 
 import NavBar from './components/NavBar'
 import { ProjectsPage } from './pages/Projects';
@@ -11,13 +11,13 @@ function App() {
 
   return (
     <>
-    <Router>
+    <HashRouter>
       <NavBar />
       <Routes>
-        <Route path="https://corvexxia.github.io" element={<HomePage />} />
-        <Route path="https://corvexxia.github.io/projects" element={<ProjectsPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
-    </Router>
+    </HashRouter>
       
     </>
   )

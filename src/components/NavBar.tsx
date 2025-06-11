@@ -12,10 +12,10 @@ export default function NavBar() {
             <Container>
                 <Nav variant="underline" defaultActiveKey={page}>
                     <Nav.Item>
-                        <Nav.Link href="https://corvexxia.github.io/" eventKey="https://corvexxia.github.io/">About</Nav.Link>
+                        <Nav.Link href="/" eventKey="/">About</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="https://corvexxia.github.io/projects" eventKey="https://corvexxia.github.io/projects">Projects</Nav.Link>
+                        <Nav.Link href="/projects" eventKey="/projects">Projects</Nav.Link>
                     </Nav.Item>
                     {/* <Nav.Item>
                         <Nav.Link href="/art" eventKey="/art">Art</Nav.Link>
