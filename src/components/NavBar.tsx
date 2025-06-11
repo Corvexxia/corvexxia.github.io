@@ -8,18 +8,18 @@ export default function NavBar() {
     const page = useLocation().pathname
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary fixed-top">
+        <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
                 <Nav variant="underline" defaultActiveKey={page}>
                     <Nav.Item>
-                        <Nav.Link href="/" eventKey="/">Home</Nav.Link>
+                        <Nav.Link href="/" eventKey="/">About</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/projects" eventKey="/projects">Projects</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                         <Nav.Link href="/art" eventKey="/art">Art</Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                 </Nav>
             </Container>
         </Navbar>

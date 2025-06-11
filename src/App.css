@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+    color: #127563
+}
+
+h4 {
+    color: #B796CD
+}
+
+h3 {
+    color: #D2AB58
+}
