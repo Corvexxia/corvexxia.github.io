@@ -1,0 +1,51 @@
+{
+    "timelineItems": [
+        {
+            "image": "/concept.png",
+            "title": "Concept",
+            "description": "In our early concept stage, we focused on establishing a setting for our core game mechanic with the S.T.A.C.K. My initial concept drawings had a more streamlined, narrow vision that emphasized on the contrast between the player and the enemies. With everyone's input, our art direction has since then expanded to support both more colours and more varied enemies.",
+            "otherImages": [
+                "/concept2.png",
+                "/concept3.png",
+                "/concept4.png",
+                "/concept5.png"
+            ]
+        },
+        {
+            "image": "/m1.png",
+            "title": "Milestone 1",
+            "description": "Our first milestone was focused on laying out our most important items: the player, enemies, bullets, and the S.T.A.C.K. And particles, which are a big part of our game visuals. This is also where I started integrating the text rendering system and scaffolded basic menus.",
+            "otherImages": ["/m1_3.gif", "/m1_2.png"
+            ]
+        },
+        {
+            "image": "/m2.png",
+            "title": "Milestone 2",
+            "description": "The second milestone was where we set up our enemy system to support varied enemy AI, set up our sound system, and added varied bullet patterns. And we finally have room walls! This is also where I laid out the dialogue system, wherein dialogue lines are loaded from an external text file for easy editing. Using this, I made the very first version of the tutorial. I also extended our render system to allow for animation support using 2D texture arrays.",
+            "otherImages": ["/m2_5.gif","/m2_3.gif","/m2_4.gif","/m2_2.png"
+            ]
+        },
+        {
+            "image": "/m3.png",
+            "title": "Milestone 3",
+            "description": "In the third milestone, we introduced interactable locked rooms, bosses, and enemy BOIDs to enhance the gameplay loop. We also added interactable objects/NPCs, which I had lots of fun setting up and making concepts for. This is also where I expanded the dialogue system to support branching choices and said interactables, and made the first S.T.A.C.K. bullet UI tooltips. To support the growing amount of text being rendered, I also optimized the text rendering system by using instanced rendering.",
+            "otherImages": ["/m3_4.gif", "/m3_5.gif", "/m3_2.gif", "/m3_6.gif", "/m3_7.gif"
+            ]
+        },
+        {
+            "image": "/m4.png",
+            "title": "Milestone 4",
+            "description": "With most of our core systems complete, we were able to create a whole new region (and final boss) during Milestone 4. I focused on improving the UI with clickable menus and player hit notifications and implementing a camera that would follow the player (and retain a nice effect with our 3D walls). In terms of content, I enjoyed designing and animating the final boss, redesigning our door icons, and revamping our tutorial.",
+            "otherImages": ["/m4_5.gif","/m4_3.gif","/m4_4.gif","/m4_6.gif"
+            ]
+        },
+        {
+            "image": "/today.png",
+            "title": "Today",
+            "description": "We continued to work on the game after the course ended. As a result, we've added a lot more content (three regions!), revamped our stacking system to encourage stack manipulation, and added tiers to stack effects for more varied gameplay. During this time, I focused on polishing the UI to be more responsive and continued making concept/asset art. I added custom camera transitions, text animations and highlighting, and tackled performance bottlenecks, starting with bullet rendering.",
+            "otherImages": [
+            ]
+        }
+    ]
+
+}
