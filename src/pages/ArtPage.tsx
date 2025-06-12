@@ -1,5 +1,5 @@
 import { useState } from "react"
-import artDb from "../data/artInfo.json"
+import artDb from "@/data/artInfo.json"
 // import Carousel from 'react-bootstrap/Carousel';
 import Modal from 'react-bootstrap/Modal';
 // import Pagination from 'react-bootstrap/Pagination';

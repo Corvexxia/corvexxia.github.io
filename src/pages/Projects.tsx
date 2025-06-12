@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { TimelineItem } from "../components/TimelineItem"
-import timeLineInfo from "../data/timelineContent.json"
+import { TimelineItem } from "@/components/TimelineItem"
+import timeLineInfo from "@/data/timelineContent.json"
 import Carousel from 'react-bootstrap/Carousel';
 
 export const ProjectsPage = () => {
