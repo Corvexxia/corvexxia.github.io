@@ -16,3 +16,38 @@ h4 {
 h3 {
     color: #D2AB58
 }
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline */
+.timelineItem::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 4px solid #D2AB58;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timelineItemClicked::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #B796CD;
+  border: 4px solid #127563;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* .timelineArrow::before {
+  content: " ";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 100;
+  border: medium solid #B796CD;
+  border-width: 10px 0 10px 10px ;
+  border-color: transparent transparent transparent #B796CD;
+  z-index: 2;
+} */
