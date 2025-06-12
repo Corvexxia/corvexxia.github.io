@@ -1,0 +1,91 @@
+{
+    "artInfo": [
+        {
+            "title": "StackOverflow Game Assets & Concepts",
+            "description": "",
+            "images": [
+                "/art/game/scientistwalk.gif",
+                "/art/game/scientist.png",
+                "/art/game/angelConcept1.png",
+                "/art/game/angelConcept2.png",
+                "/art/game/gardener_concepts.png",
+                "/art/game/past1.png"
+            ]
+        },
+        {
+            "title": "Ad Astra, Aeternum",
+            "description": "",
+            "images": [
+                "/art/aaa/0_front_cover.png",
+                "/art/aaa/0_inside_cover.png",
+                "/art/aaa/1.png",
+                "/art/aaa/2.png",
+                "/art/aaa/3.png",
+                "/art/aaa/4.png",
+                "/art/aaa/5.png",
+                "/art/aaa/6.png",
+                "/art/aaa/7.png",
+                "/art/aaa/8.png",
+                "/art/aaa/9.png",
+                "/art/aaa/10.png",
+                "/art/aaa/11.png",
+                "/art/aaa/12.png",
+                "/art/aaa/13.png",
+                "/art/aaa/14.png",
+                "/art/aaa/15.png",
+                "/art/aaa/16-17.png",
+                "/art/aaa/18.png",
+                "/art/aaa/19.png",
+                "/art/aaa/20.png",
+                "/art/aaa/21.png",
+                "/art/aaa/22.png",
+                "/art/aaa/23.png",
+                "/art/aaa/24.png",
+                "/art/aaa/25.png",
+                "/art/aaa/26.png",
+                "/art/aaa/27.png",
+                "/art/aaa/28.png",
+                "/art/aaa/29.png",
+                "/art/aaa/30.png",
+                "/art/aaa/31_inside_back_cover.png",
+                "/art/aaa/back_cover.png"
+            ]
+        },
+        {
+            "title": "The Little Robot Called Wonder",
+            "description": "",
+            "images": [
+                "/art/wonder/cover.png",
+                "/art/wonder/insidecoverpg.png",
+                "/art/wonder/pg1.png",
+                "/art/wonder/pg2.png",
+                "/art/wonder/pg3.png",
+                "/art/wonder/pg4.png",
+                "/art/wonder/pg5.png",
+                "/art/wonder/pg6.png",
+                "/art/wonder/pg7.png",
+                "/art/wonder/pg8.png",
+                "/art/wonder/pg9.png",
+                "/art/wonder/pg10.png",
+                "/art/wonder/pg11.png",
+                "/art/wonder/pg12.png",
+                "/art/wonder/pg13.png",
+                "/art/wonder/pg14.png",
+                "/art/wonder/pg15.png",
+                "/art/wonder/pg16.png",
+                "/art/wonder/pg17.png",
+                "/art/wonder/pg18.png"
+            ]
+        },
+        {
+            "title": "Other",
+            "description": "",
+            "images": [
+                "/art/other/apr 11 2025.png",
+                "/art/other/apr 19 2025.png",
+                "/art/other/jan 5 3 2025.png",
+                "/art/other/may 25 2 2025.png"
+            ]
+        }
+    ]
+}

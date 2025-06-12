@@ -44,7 +44,7 @@ export const HomePage = () => {
                 </div>
                 <div className="p-3">
                     <h3>Contact</h3>
-                    <p>tian.amandajade@gmail.com</p>
+                    <p><b>tian.amandajade@gmail.com</b></p>
                 </div>
             </div>
         </div>

@@ -17,9 +17,9 @@ export default function NavBar() {
                     <Nav.Item>
                         <Nav.Link href="#projects" eventKey="#projects">Projects</Nav.Link>
                     </Nav.Item>
-                    {/* <Nav.Item>
-                        <Nav.Link href="/art" eventKey="/art">Art</Nav.Link>
-                    </Nav.Item> */}
+                    <Nav.Item>
+                        <Nav.Link href="#art" eventKey="#art">Art</Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </Container>
         </Navbar>

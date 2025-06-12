@@ -51,3 +51,12 @@ h3 {
   border-color: transparent transparent transparent #B796CD;
   z-index: 2;
 } */
+
+.centered {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
