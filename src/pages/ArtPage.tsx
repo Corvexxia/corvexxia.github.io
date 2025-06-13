@@ -2,7 +2,6 @@ import { useState } from "react"
 import artDb from "../data/artInfo.json"
 // import Carousel from 'react-bootstrap/Carousel';
 import Modal from 'react-bootstrap/Modal';
-// import Pagination from 'react-bootstrap/Pagination';
 import { ImageSection } from "./ImageRow";
 
 export const ArtPage = () => {
@@ -61,9 +60,9 @@ export const ArtPage = () => {
         // }
 
         return (
-            <div className="" key={index}>
+            <div className="w-100" key={index}>
                 <div className="p-3" >
-                    <h3>{section.title}</h3>
+                    <h1>{section.title}</h1>
                     <p>{section.description}</p>
                 </div>
                 {/* <Carousel data-bs-theme="dark" className="p-0 m-0">
@@ -79,9 +78,7 @@ export const ArtPage = () => {
     
     return(
         <>
-        <div className="" style={{minHeight:'100vh'}}>
-            {artSections}
-        </div>
+        {artSections}
         <Modal size="xl" className="modal-dialog-centered" show={img.length > 0} onHide={() => setImg("")}>
             <Modal.Header closeButton />
             {img.length > 0 && <img className="modal-content" src={img} style={{width:'100%'}}/>}

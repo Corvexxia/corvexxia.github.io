@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -59,4 +59,15 @@ h3 {
   bottom: 0;
   margin: auto;
   position: absolute;
+}
+
+/* ref: https://stackoverflow.com/questions/63819286/how-to-change-the-color-of-bootstraps-pagination */
+.page-item.active .page-link {
+  color: #fff;
+  background: #D2AB58;
+  border-color:#D2AB58
+}
+
+.page-item .page-link {
+  color:#127563;
 }

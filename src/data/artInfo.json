@@ -2,7 +2,7 @@
     "artInfo": [
         {
             "title": "StackOverflow Game Assets & Concepts",
-            "description": "",
+            "description": "As a lead artist, I made concept and asset art that reflected our game's simplistic and colourful visual style.",
             "images": [
                 "/art/game/scientistwalk.gif",
                 "/art/game/scientist.png",
@@ -81,10 +81,10 @@
             "title": "Other",
             "description": "",
             "images": [
-                "/art/other/apr 11 2025.png",
                 "/art/other/apr 19 2025.png",
+                "/art/other/apr 11 2025.png",
                 "/art/other/jan 5 3 2025.png",
-                "/art/other/may 25 2 2025.png"
+                "/art/other/poem exercise.png"
             ]
         }
     ]

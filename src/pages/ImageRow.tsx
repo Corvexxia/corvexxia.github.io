@@ -6,14 +6,14 @@ function ImageRow({images, handleImgClick} : {images:string[], handleImgClick:(i
         return (
             <div className="col-md-3"  key={index} onClick={() => handleImgClick(img)}>
                 <img src={img} loading="lazy"
-                style={{width:'18rem', height:'18rem', objectFit:'cover'}} 
+                style={{width:'20vw', height:'20vw', objectFit:'cover'}} 
                 />
             </div>
         )
     })
     return(
         <div className="">
-            <div  className="row gy-3">
+            <div  className="row">
                 {imgThumbs}
             </div>
         </div>
@@ -41,14 +41,17 @@ export const ImageSection = ({images, handleImgClick} : {images:string[], handle
     const row = imageRows[currPage - 1]
 
     return (
-        <div className="container">
-            <div className="row gy-3 p-3">
+        <div className="px-3">
+            <div className="px-3 pb-3 w-100">
             <ImageRow 
                 images={row}
                 handleImgClick={handleImgClick}
                 />
             </div>
-            <Pagination>{items}</Pagination>
+            <div className="d-flex justify-content-center">
+                <div><Pagination>{items}</Pagination></div>
+            </div>
+            
         </div>
     )
 }
