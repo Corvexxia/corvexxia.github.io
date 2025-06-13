@@ -2,21 +2,22 @@
     "artInfo": [
         {
             "title": "StackOverflow Game Assets & Concepts",
-            "description": "As a lead artist, I made concept and asset art that reflected our game's simplistic and colourful visual style.",
+            "description": "As a game artist, I made concept and asset art that helped shape our game's simplistic and colourful visual style in addition to UI icon designs.",
             "images": [
                 "/art/game/scientistwalk.gif",
                 "/art/game/scientist.png",
+                "/art/game/icons.png",
+                "/art/game/past1.png",
                 "/art/game/angelConcept1.png",
                 "/art/game/angelConcept2.png",
-                "/art/game/gardener_concepts.png",
                 "/art/game/garden1.png",
                 "/art/game/garden2.png",
-                "/art/game/past1.png"
+                "/art/game/gardener_concepts.png"
             ]
         },
         {
             "title": "Ad Astra, Aeternum",
-            "description": "",
+            "description": "A 30-paged original mini-comic I made in my Intermediate Graphic Forms Workshop course, which tells the heartwarming story of the daughter of an astronomer, a spacefaring android, and their shared love for the stars.",
             "images": [
                 "/art/aaa/0_front_cover.png",
                 "/art/aaa/0_inside_cover.png",
@@ -55,7 +56,7 @@
         },
         {
             "title": "The Little Robot Called Wonder",
-            "description": "",
+            "description": "An 18-paged original mini-comic I made in my Intermediate Writing for Graphic Forms course that tells the story leading up to the events of StackOverflow, focusing on the scientist who created the main robot character.",
             "images": [
                 "/art/wonder/cover.png",
                 "/art/wonder/insidecoverpg.png",
@@ -81,7 +82,7 @@
         },
         {
             "title": "Other",
-            "description": "",
+            "description": "Various loose drawings I made, often inspired by works I admire.",
             "images": [
                 "/art/other/apr 19 2025.png",
                 "/art/other/apr 11 2025.png",

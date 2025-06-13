@@ -15,7 +15,10 @@ export default function NavBar() {
                         <Nav.Link href="/" eventKey="/">About</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#projects" eventKey="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#team-projects" eventKey="#team-projects">Team Projects</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#solo-projects" eventKey="#solo-projects">Solo Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="#art" eventKey="#art">Art</Nav.Link>
