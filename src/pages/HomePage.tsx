@@ -33,7 +33,7 @@ export const HomePage = () => {
                             <b>Machine Learning:</b> scikit-learn, spaCy, PyTorch, TensorFlow
                         </li>
                         <li>
-                            <b>What I'm learning now:</b> Three.js,  
+                            <b>What I'm learning now:</b> Three.js
                         </li>
                     </ul>
                 </div>
