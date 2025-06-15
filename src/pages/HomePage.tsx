@@ -12,7 +12,7 @@ export const HomePage = () => {
                     <p>I'm a 4th year computer science student, with much of my work driven by my 
                         urge for optimization and keen visual awareness. 
                         I strive to make games where gameplay and art
-                        go hand in hand with one another to create a unique and intuitive experience.
+                        go hand in hand with one another to create a unique and unified experience.
                     </p>
                 </div>
             </div>
@@ -28,6 +28,12 @@ export const HomePage = () => {
                         </li>
                         <li>
                             <b>Databases:</b> Oracle, SQL
+                        </li>
+                        <li>
+                            <b>Machine Learning:</b> scikit-learn, spaCy, PyTorch, TensorFlow
+                        </li>
+                        <li>
+                            <b>What I'm learning now:</b> Three.js,  
                         </li>
                     </ul>
                 </div>
